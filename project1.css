@@ -1,0 +1,130 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-image: url(blue_white.jpg);
+            background-size: cover;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-image: url(colour_pencil.jpg);
+            background-size: cover;
+            color: #000000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        #about .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        
+        #about p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+        
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        #skills li {
+            background-color: #f4f4f4;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+        
+        .project {
+            margin-bottom: 30px;
+        }
+        
+        .project-img {
+            width: 350px;
+            height: 200px;
+            margin: 0%;
+            padding: 0;
+            border-radius: 30px;
+            /* width: 100%;
+    height: auto;
+    */
+        }
+        
+        .project h3 {
+            margin: 10px 0 5px;
+        }
+        
+        .project p {
+            font-size: 1em;
+        }
+        
+        #resume a {
+            display: block;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px auto 0;
+        }
+        
+        #contact p {
+            text-align: center;
+            font-size: 1.1em;
+            margin: 5px 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        
+        #resume a:hover {
+            background-color: rgb(123, 117, 117);
+            color: white;
+            font-size: auto;
+        }
